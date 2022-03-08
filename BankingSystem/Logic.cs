@@ -54,6 +54,7 @@ namespace BankingSystem
 
             while (!exit)
             {
+                cbflag = false;
                 while (true)
                 {
                     for (i = 1; i <= banksList.Count; i++)
